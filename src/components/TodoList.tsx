@@ -17,11 +17,12 @@ interface Todo {
           <li key={todo.id} style={{ textDecoration: todo.completed ? 'line-through' : 'none' }}>
             <input
               type="checkbox"
+              className="listName"
               checked={todo.completed}
               onChange={() => props.toggleTodo(todo.id)}
             />
             {todo.text}
-            <button onClick={() => props.deleteTodo(todo.id)}>Supprimer</button>
+            <button className="btnDelete" onClick={() => props.deleteTodo(todo.id)}>Supprimer</button>
           </li>
         ))}
       </ul>

@@ -9,13 +9,22 @@
   text-align: center;
 }
 
-
-
-
 .card {
   padding: 2em;
 }
 
 .read-the-docs {
   color: #888;
+}
+.inputMargin{
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  text-align: center;
+}
+.listName{
+  margin: 1rem;
+}
+.btnDelete{
+  margin: 1rem;
 }
